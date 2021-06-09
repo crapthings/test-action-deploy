@@ -11,11 +11,5 @@
     "env": {
       "PORT": 3002,
     }
-  }, , {
-    "name": "test-action-deploy-chuangtou",
-    "script": "index.js",
-    "env": {
-      "PORT": 3003,
-    }
   }]
 }
