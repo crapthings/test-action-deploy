@@ -1,0 +1,6 @@
+{
+  "apps": [{
+    "name": "test-action-deploy",
+    "script": "index.js"
+  }]
+}
