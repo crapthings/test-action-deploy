@@ -20,11 +20,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-  - name: Install SSH Key
-    uses: shimataro/ssh-key-action@v2
-    with:
-      key: ${{ secrets.SSH_TO_HK }}
-      known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+    - name: Install SSH Key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.SSH_TO_HK }}
+        known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
 
     steps:
     - uses: actions/checkout@v2
