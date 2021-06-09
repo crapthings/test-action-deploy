@@ -1,9 +1,15 @@
 {
   "apps": [{
     "name": "test-action-deploy-dezhi",
-    "script": "index.js"
+    "script": "index.js",
+    "env": {
+      "PORT": 3001,
+    }
   }, {
     "name": "test-action-deploy-hrg",
-    "script": "index.js"
+    "script": "index.js",
+    "env": {
+      "PORT": 3002,
+    }
   }]
 }

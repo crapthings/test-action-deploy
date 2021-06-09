@@ -1,16 +1,7 @@
 module.exports = {
   deploy : {
-    tencent : {
+    cube : {
       ...getDefaultDeployInfo(),
-      env: {
-        TEST: 'tencent'
-      }
-    },
-    ali : {
-      ...getDefaultDeployInfo(),
-      env: {
-        TEST: 'ali'
-      },
     }
   }
 }
