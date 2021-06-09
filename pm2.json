@@ -1,6 +1,9 @@
 {
   "apps": [{
-    "name": "test-action-deploy",
+    "name": "test-action-deploy-dezhi",
+    "script": "index.js"
+  }, {
+    "name": "test-action-deploy-hrg",
     "script": "index.js"
   }]
 }
